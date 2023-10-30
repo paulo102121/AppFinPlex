@@ -1,0 +1,24 @@
+{
+    "name": "paulo102121/app-fin-plex",
+    "description": "Sistema de gerenciamento de contas",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "paulo102121",
+            "email": "paulovinteeum@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+       "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "App\\Custom\\": "app/Custom/",
+            "App\\Models\\": "app/model/"
+        }
+    },
+    "require": {
+        "rits-tecnologia/bling-php-sdk": "^0.0.5",
+        "illuminate/database": "^10.29"
+    }
+}
